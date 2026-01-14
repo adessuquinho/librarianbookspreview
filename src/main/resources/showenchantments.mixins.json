@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.example.showenchantments.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "VillagerTradeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

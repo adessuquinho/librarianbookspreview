@@ -1,0 +1,7 @@
+{
+  "enchantments.show": "Enchanted Books:",
+  "showenchantments.emerald.one": "%s emerald",
+  "showenchantments.emerald.many": "%s emeralds",
+  "mod.showenchantments.name": "Librarian Books Preview",
+  "mod.showenchantments.description": "Display enchanted books sold by librarian villagers"
+}

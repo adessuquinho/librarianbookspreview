@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "showenchantments",
+  "version": "${version}",
+  "name": "Librarian Books Preview",
+  "description": "Display enchanted books sold by librarian villagers with their emerald prices",
+  "authors": [
+    "Ades."
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/showenchantments/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.showenchantments.ShowEnchantmentsMain"
+    ],
+    "client": [
+      "com.example.showenchantments.ShowEnchantmentsClient"
+    ]
+  },
+  "mixins": [
+    "showenchantments.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
